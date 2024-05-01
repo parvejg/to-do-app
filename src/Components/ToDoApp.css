@@ -1,0 +1,94 @@
+@media (max-width: 750px) {
+  .buttons-wrappper ,.addBtn-searchIcon-countItems-wrapper, .all-active-completed-btn-wrapper  {
+    max-height: 90px;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+  }
+}
+.ToDoApp {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.to-do-app-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 233, 233);
+  width: 50%;
+}
+.to-do-input-wrapper {
+  width: 100%;
+}
+.to-do-app-input {
+  width: 90%;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid blue;
+  font-size: large;
+  text-align: left;
+}
+.to-do-list-wrapper {
+  display: flex;
+  width: 100%;
+  padding-top: 0.8rem;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.8rem;
+  padding-bottom: 1rem;
+}
+#to-do-list {
+  font-size: larger;
+  border-bottom: 2px solid rgb(95, 18, 18);
+  background-color: aliceblue;
+}
+.buttons-wrappper {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+}
+.addBtn-searchIcon-countItems-wrapper {
+  display: flex;
+  gap: 12px;
+  padding: 8px;
+}
+.add-btn {
+  outline: hidden;
+  overflow: hidden;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.search-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 21px;
+  cursor: pointer;
+}
+.search {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.all-active-completed-btn-wrapper {
+  display: flex;
+  padding: 0.5rem;
+  gap: 12px;
+  max-width: 100%;
+}
+.completed-all-active-btns {
+  border: none;
+  background-color: transparent;
+  font-size: large;
+  cursor: pointer;
+}
