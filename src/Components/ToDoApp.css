@@ -5,6 +5,9 @@
     width: 100%;
     gap: 4px;
   }
+  .to-do-app-wrapper{
+    height: 600px;
+  }
 }
 .ToDoApp {
   max-width: 100%;
@@ -48,8 +51,8 @@
 }
 .buttons-wrappper {
   display: flex;
-  width: 100%;
   text-align: center;
+  margin-top: 18px;
   height: 35px;
   justify-content: space-between;
   align-items: center;
@@ -68,8 +71,9 @@
   border: none;
   cursor: pointer;
 }
-.search-btn {
+.search-btn, .tasks-count  {
   background-color: transparent;
+  text-align: center;
   border: none;
   font-size: 21px;
   cursor: pointer;
