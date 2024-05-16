@@ -27,7 +27,12 @@ const getUpdatedTodo =(key)=>{
   
 }
 const updatedTodo = getUpdatedTodo(filterKey)
-
+const seachHandler =()=>{
+  const filteredText = updatedTodo.filter((todoTxt)=>
+    todoTxt.text=== todoText.toLowerCase()
+  )
+  setTodo(filteredText)
+}
 
   const todosHandler = () => {
     let todoObj = {};
@@ -91,7 +96,7 @@ const updatedTodo = getUpdatedTodo(filterKey)
               +
             </button>
             <button className="search">
-              <IoSearch className="search-btn"  onClick={()=> setTodo(todo)}/>
+              <IoSearch className="search-btn"  onClick={()=> seachHandler(todo)}/>
             </button>
             <span className="tasks-count">{todo?.length} items left</span>
           </div>
