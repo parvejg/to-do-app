@@ -21,7 +21,8 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(221, 233, 233);
-  width: 50%;
+  height: 100vh;
+  min-width: 100%;
 }
 .to-do-input-wrapper {
   width: 100%;
