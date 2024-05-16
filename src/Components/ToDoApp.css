@@ -6,7 +6,8 @@
     gap: 4px;
   }
   .to-do-app-wrapper{
-    height: 600px;
+    height: 100vh;
+  min-width: 100%;
   }
 }
 .ToDoApp {
@@ -21,8 +22,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(221, 233, 233);
-  height: 100vh;
-  min-width: 100%;
+ 
 }
 .to-do-input-wrapper {
   width: 100%;
